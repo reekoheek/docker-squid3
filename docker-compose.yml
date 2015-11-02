@@ -3,4 +3,4 @@ squid3:
     file: base.yml
     service: squid3
   volumes:
-    - /srv/squid3/cache:/var/cache/squid3
+    - ./srv/squid3/cache:/var/cache/squid3
