@@ -1,0 +1,6 @@
+squid3:
+  extends:
+    file: base.yml
+    service: squid3
+  volumes:
+    - /srv/squid3/cache:/var/cache/squid3

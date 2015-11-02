@@ -1,0 +1,7 @@
+squid3:
+  build: .
+  restart: always
+  ports:
+    - "3128:3128"
+#  volumes:
+#    - ./srv/squid3/cache:/var/cache/squid3
