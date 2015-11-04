@@ -10,7 +10,7 @@ chown -R proxy:proxy /var/log/squid3 /var/cache/squid3
 
 if [[ ! -d /var/cache/squid3/00 ]]; then
   echo "Initializing cache..."
-  squid3 -N -f /etc/squid3/squid.conf -f /etc/squid3/squid.conf -z
+  squid3 -N -f /etc/squid3/squid.conf -z
 fi
 
 exec "$@"

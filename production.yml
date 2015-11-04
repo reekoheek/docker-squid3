@@ -4,3 +4,7 @@ squid3:
     service: squid3
   volumes:
     - /srv/squid3/cache:/var/cache/squid3
+    - /srv/squid3/log:/var/log/squid3
+  dns:
+    - 182.253.236.235
+    - 203.142.82.224
